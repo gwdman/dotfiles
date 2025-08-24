@@ -1,2 +1,2 @@
 # dotfiles
-my configuration files for Fedora Linux
+my configuration files for Fedora Linux (WIP)
