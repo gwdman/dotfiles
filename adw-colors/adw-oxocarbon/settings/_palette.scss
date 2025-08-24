@@ -1,0 +1,23 @@
+// This file contains the main colors for the theme
+
+@use '../../abstracts/settings' as *;
+
+
+
+$red: if($variant == 'light', #ff7eb6, #3ddbd9);
+$orange: if($variant == 'light', #FF6F00, #78a9ff);
+$yellow: if($variant == 'light', #ee5396, #ee5396);
+$green: if($variant == 'light', #42be65, #42be65);
+$blue: if($variant == 'light', #0f62fe, #33b1ff);
+$cyan: if($variant == 'light', #08bdba, #08bdba); // teal
+$purple: if($variant == 'light', #be95ff, #be95ff); // magenta
+$pink: if($variant == 'light', #673AB7, #ff7eb6);
+$slate: if($variant == 'light', #525252, #525252); // neutral grey
+$window_bg: if($variant == 'light', #ffffff, #161616); // window background
+$window_fg: if($variant == 'light', #161616, #f2f4f8); // window text
+$view_bg: if($variant == 'light', #ffffff, #161616); // views
+$view_fg: if($variant == 'light', #161616, #f2f4f8); // view text
+$header_bg: if($variant == 'light', #f2f2f2, #262626); // headerbars & sidebars
+$header_fg: if($variant == 'light', #161616, #dde1e6);
+$menu_bg: if($variant == 'light', #f2f2f2, #262626); // menus
+$menu_fg: if($variant == 'light', #161616, #f2f4f8);
