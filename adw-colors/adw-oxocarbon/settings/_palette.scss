@@ -4,12 +4,12 @@
 
 
 
-$red: if($variant == 'light', #ff7eb6, #3ddbd9);
-$orange: if($variant == 'light', #FF6F00, #78a9ff);
-$yellow: if($variant == 'light', #ee5396, #ee5396);
+$red: if($variant == 'light', #ff7eb6, #ee5396);
+$orange: if($variant == 'light', #FF6F00, #ff832b);
+$yellow: if($variant == 'light', #fddc69, #fddc69);
 $green: if($variant == 'light', #42be65, #42be65);
-$blue: if($variant == 'light', #0f62fe, #33b1ff);
-$cyan: if($variant == 'light', #08bdba, #08bdba); // teal
+$blue: if($variant == 'light', #0f62fe, #78a9ff);
+$cyan: if($variant == 'light', #08bdba, #82cfff); // teal
 $purple: if($variant == 'light', #be95ff, #be95ff); // magenta
 $pink: if($variant == 'light', #673AB7, #ff7eb6);
 $slate: if($variant == 'light', #525252, #525252); // neutral grey
